@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>The ACM SIGPLAN - PEPM</title>
+  <!-- 引入 Inter 字体 -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #bfbfbf;
+    }
+
+    .wrapper {
+      max-width: 1250px;
+      margin: 0 auto;
+      min-height: 100vh;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      display: flex;
+      flex-direction: column;
+    }
+
+    @media (min-width: 1600px) {
+      .wrapper {
+        max-width: 90%;
+      }
+    }
+
+    .header {
+      background-color: #0077b3;
+      color: white;
+      padding: 60px 10px;
+      text-align: center;
+    }
+
+    .header h1 {
+      margin: 0;
+      font-size: 32px;
+      font-weight: 700;
+    }
+
+    .header h2 {
+      margin: 10px 0 0 0;
+      font-size: 26px;
+      font-weight: 700;
+    }
+
+    .container {
+      display: flex;
+      flex: 1;
+    }
+
+    .sidebar {
+      background-color: #ffffff;
+      padding: 20px;
+      width: 350px;
+      font-size: 16px;
+      font-weight: 600;
+      border-right: 1px solid #ccc;
+    }
+
+    .sidebar img {
+      width: 235px;
+      display: block;
+      margin: 0 auto 20px auto;
+    }
+
+    .sidebar a {
+      display: block;
+      margin: 12px 0;
+      color: #800080;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    .sidebar a:hover {
+      text-decoration: underline;
+    }
+
+    .main-content {
+      padding: 20px;
+      background-color: white;
+      flex-grow: 1;
+      font-size: 15px;
+      line-height: 1.6;
+    }
+
+    .main-content a {
+      text-decoration: none;
+      color: #0000ee;
+    }
+
+    .main-content a:hover {
+      text-decoration: underline;
+    }
+
+    .footer {
+      background-color: #0077b3;
+      color: white;
+      padding: 10px 20px;
+      font-size: 12px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    h2 {
+      margin-top: 0;
+    }
+
+    ul {
+      margin: 10px 0;
+      padding-left: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="wrapper">
+    <div class="header">
+      <h1>The ACM SIGPLAN</h1>
+      <h2>Workshop on Partial Evaluation and Program Manipulation</h2>
+    </div>
+
+    <div class="container">
+      <div class="sidebar">
+        <img src="image.png" alt="ACM Logo">
+        <a href="index.html">Home</a>
+        <a href="https://popl24.sigplan.org/home/pepm-2025" target="_blank">PEPM 2026</a>
+        <a href="structure.html">Organisation</a>
+        <a href="history.html">History</a>
+      </div>
+
+      <div class="main-content">
+        <h2>PEPM Organizational Structure</h2>
+
+        <p> The organizational structure of PEPM consists of a ... </p>
+
+        <!-- <h3>Steering Committee</h3>
+
+        <p>The PEPM Steering Committee is responsible for ...</p>
+
+        <p>The main responsibilities of the Steering Committee include:</p>
+        <ul>
+          <li>To uphold and promote the mission of PEPM and ensure its long-term vitality.</li>
+          <li>To consult with SIGPLAN and represent PEPM within the broader ACM SIGPLAN community.</li>
+          <li>To appoint the General Chair and approve the Program Chair for each upcoming edition of the workshop.</li>
+          <li>To provide guidance and support to the workshop organizers.</li>
+        </ul> -->
+
+        <!-- <h3>Membership</h3> -->
+
+        <!-- <p>Steering Committee membership is determined by the following rules:</p>
+        <ul>
+          <li>Past General and Program Chairs serve as members until PEPM(n+2).</li>
+          <li>Members-at-large serve rotating four-year terms.</li>
+          <li>A Publicity Chair and Diversity Chair may serve as standing members.</li>
+          <li>All appointments and changes are approved by the current Steering Committee.</li>
+        </ul> -->
+
+        <!-- <h3>Current Membership</h3>
+        <ul>
+        </ul> -->
+
+        <!-- <h3>General Chair and Program Chair</h3>
+
+        <p>The General Chair is appointed by the Steering Committee and is responsible for overseeing the organization of the workshop. The General Chair selects the Program Chair, whose appointment must be approved by the Steering Committee.</p>
+
+        <p>The Program Chair is responsible for forming the Program Committee and managing the review and selection process. The committee composition and review process should follow <a href="https://www.sigplan.org/Resources/Policies/Review/" target="_blank">SIGPLAN’s policies on reviewing</a>.</p> -->
+      </div>
+    </div>
+
+    <div class="footer">
+      <div>ACM SIGPLAN</div>
+      <div>Wenjia Ye, PEPM Publicity Chair</div>
+    </div>
+  </div>
+
+</body>
+</html>
